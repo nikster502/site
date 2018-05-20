@@ -1,41 +1,44 @@
-.picturMiddleText{
-      display: flex;
+.picturMiddleText {
+    display: flex;
     position: relative;
     justify-content: center;
-    
+
 }
-.picturMiddleText img{
-    z-index:0;
-    top:0;
-    left:0;
-    width:75%;
-    height: 75%   
+
+.picturMiddleText img {
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%
 }
-#firstText{
+
+#firstText {
     padding-top: 43%;
 }
-.text{
+
+.text {
     display: flex;
     width: 70%;
     flex-direction: column;
     margin: auto;
 }
-.text p{
+
+.text p {
     font-size: 18px;
     font-family: "Lato";
 }
 
-.text p{
+.text p {
     line-height: 1.9;
 }
 
-span.dropcaps 
-    {
-font-size: 80px;
-float: left;
-margin-top: 13px;
-line-height: 0.9;    
-    }
+span.dropcaps {
+    font-size: 80px;
+    float: left;
+    margin-top: 13px;
+    line-height: 0.9;
+}
 
 .block-cirle {
     display: inline-flex;
@@ -196,14 +199,14 @@ body {
 @font-face {
     font-family: Lora;
     src: url(fonts/Lora.ttf);
-   }
+}
+
 @font-face {
     font-family: Lato;
     src: url(fonts/Lato.ttf);
-   }
+}
+
 @font-face {
     font-family: Playfair Display;
     src: url(fonts/PlayfairDisplay-Bold.ttf);
-   }
-
-
+}
